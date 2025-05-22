@@ -2,7 +2,7 @@
 
 A modern, responsive dashboard application built for LAPO Microfinance Bank. This dashboard provides comprehensive analytics and management tools for card issuance, revenue tracking, and administrative functions.
 
-![Dashboard Preview]()
+![Dashboard Preview](https://lapo-dashboard-five.vercel.app/)
 
 ## ✨ Features
 
