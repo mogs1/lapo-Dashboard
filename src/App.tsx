@@ -53,7 +53,7 @@ const Dashboard: React.FC = () => {
           {/* Analytics Section */}
           <div className="mb-8">
             <div className='flex items-center justify-between sapce-x-2'>
-            <h2 className="text-lg font-semibold text-gray-900 mb-6">Analytics</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-6">Analytics</h2>
             <div className='flex flex-1 bg-gray-100 border-b-2 border-gray-200 '></div>
             </div>
             
