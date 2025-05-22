@@ -1,7 +1,6 @@
 import {
-  Home, CreditCard, Users, FileText, Settings, DollarSign,
-  TrendingUp, Package, Lock, UserCheck, LogOut, User,
-  BarChart3, Shield, Activity, Hourglass, Banknote
+  Home, CreditCard, Users, FileText, Package, Lock, UserCheck, User,
+  Shield, Activity, Hourglass, Banknote
 } from 'lucide-react';
 import type { MenuItem, ChartDataPoint, CardStatusData, CardRequest, MetricCard } from '../types/index';
 
