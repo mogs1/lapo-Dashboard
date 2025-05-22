@@ -28,24 +28,24 @@ const Dashboard: React.FC = () => {
         {/* Main Dashboard Content */}
         <main className="flex-1 overflow-y-auto p-6">
 
-        {/* sub-header */}
-        <div className="flex items-center justify-between py-4">
-          <div className="">
-            <h1 className="text-2xl font-semibold text-gray-900 mb-1">
-              Hi Nazeer, what would you like to do today?
-            </h1>
-            <p className="text-sm text-gray-500">
-              Last login: 26/11/2024 14:39:58
-            </p> 
-          </div> 
-          <div className="flex items-center justify-center text-sm border-[#D0D5DD] rounded-lg py-2 px-4 border">
-              <span className="flex font-semibold pr-2 border-r border-[#D0D5DD] ">
-                <Calendar className="pr-2" />
-                Today
-              </span>
-              <span className="text-sm pl-2">11 Nov 2024</span>
-          </div>   
-        </div>  
+            {/* sub-header */}
+            <div className="flex items-center justify-between py-4">
+              <div className="">
+                <h1 className="text-2xl font-semibold text-gray-900 mb-1">
+                  Hi Nazeer, what would you like to do today?
+                </h1>
+                <p className="text-sm text-gray-500">
+                  Last login: 26/11/2024 14:39:58
+                </p> 
+              </div> 
+              <div className="flex items-center justify-center text-sm border-[#D0D5DD] rounded-lg py-2 px-4 border">
+                  <span className="flex font-semibold pr-2 border-r border-[#D0D5DD] ">
+                    <Calendar className="pr-2" />
+                    Today
+                  </span>
+                  <span className="text-sm pl-2">11 Nov 2024</span>
+              </div>   
+            </div>  
 
           {/* Quick Access */}
           <QuickAccess />
@@ -63,7 +63,7 @@ const Dashboard: React.FC = () => {
             {/* Chart Section */}
             <div className='flex flex-col lg:flex-row gap-6'>
               {/* Left chart */}
-              <div className="flex flex-col gap-6">
+              <div className="flex-1 flex flex-col lg:w-1/2 gap-6">
                 {/* Card Requests Table */}
                 <div className="">
                   <Charts />
@@ -76,7 +76,7 @@ const Dashboard: React.FC = () => {
               </div>
 
               {/* Right chart */}
-              <div className='flex flex-col gap-6'>
+              <div className=' flex flex-col lg:w-1/2 gap-6'>
                 {/* Card Income Table */}
                 <div className="">
                   <CardRequestsTable />
